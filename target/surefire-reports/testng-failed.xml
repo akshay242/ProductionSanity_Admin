@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.til.ctnBrandwire.test.TestSuperAdmin]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.til.ctnBrandwire.test.TestSuperAdmin">
+        <methods>
+          <include name="verifyAccountsManagePublication"/>
+          <include name="logOutApp"/>
+          <include name="verifyCreatePackage"/>
+          <include name="verifyCreateLead"/>
+          <include name="verifyContentDashboard"/>
+          <include name="verifyManagePricing"/>
+          <include name="verifyAccountDashboard"/>
+          <include name="verifyAdminDashboard"/>
+          <include name="driverInitialize"/>
+          <include name="verifyFinanceRecordSales"/>
+          <include name="verifyFinanceInvoices"/>
+          <include name="verifyFinanceDashboard"/>
+          <include name="verifyLeadRecordSales"/>
+          <include name="verifyFinanceDashboardFilter"/>
+          <include name="verifyFinanceCreateAccount"/>
+          <include name="verifyAccountsCreateAccount"/>
+          <include name="verifyPackageExecDashboard"/>
+          <include name="verifyLeadManageOfferings"/>
+          <include name="verifyAccountsManageManager"/>
+          <include name="verifyLeadInvoices"/>
+          <include name="verifyLogin"/>
+          <include name="verifyAccountsManageBrand"/>
+          <include name="verifyCreateStory"/>
+          <include name="verifyAdminCreateAccount"/>
+          <include name="verifyPackageDashboard"/>
+          <include name="verifyAccountsAddBrand"/>
+          <include name="verifyLeadCreateClientAccount"/>
+          <include name="verifyLeadDashboard"/>
+          <include name="verifyLeadDashboardFilter"/>
+          <include name="verifyCreateUpdate"/>
+          <include name="verifycontentExecDashboard"/>
+          <include name="verifySalesDashboard"/>
+          <include name="verifyAccountDashboardFilter"/>
+          <include name="verifyAdminDashboardFilter"/>
+          <include name="verifyCreateResponse"/>
+          <include name="verifyContentDashboardFilter"/>
+          <include name="verifyCreateComment"/>
+          <include name="verifyFinanceManageOfferings"/>
+          <include name="verifyAccountsAddManager"/>
+        </methods>
+      </class> <!-- com.til.ctnBrandwire.test.TestSuperAdmin -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.til.ctnBrandwire.test.TestSuperAdmin] -->

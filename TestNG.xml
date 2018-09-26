@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="example suite 1" >
+  
+  <test name="ChromeTest" >
+   <classes>
+      <class name="com.til.ctnBrandwire.test.TestSuperAdmin"/>
+    </classes>
+ </test>
+ 
+</suite>

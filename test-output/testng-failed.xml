@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.til.ctnBrandwire.test.TestSuperAdmin">
+        <methods>
+          <include name="verifyAccountsManagePublication"/>
+          <include name="verifyLogin"/>
+          <include name="verifyAccountsManageBrand"/>
+          <include name="verifyAdminCreateAccount"/>
+          <include name="verifyContentDashboard"/>
+          <include name="verifyAccountDashboard"/>
+          <include name="verifyAccountsAddBrand"/>
+          <include name="verifyAdminDashboard"/>
+          <include name="driverInitialize"/>
+          <include name="verifyFinanceRecordSales"/>
+          <include name="verifyFinanceInvoices"/>
+          <include name="verifyAccountDashboardFilter"/>
+          <include name="verifyFinanceDashboard"/>
+          <include name="verifyAdminDashboardFilter"/>
+          <include name="verifyFinanceDashboardFilter"/>
+          <include name="verifyFinanceCreateAccount"/>
+          <include name="verifyContentDashboardFilter"/>
+          <include name="verifyAccountsCreateAccount"/>
+          <include name="verifyAccountsManageManager"/>
+          <include name="verifyFinanceManageOfferings"/>
+          <include name="verifyAccountsAddManager"/>
+        </methods>
+      </class> <!-- com.til.ctnBrandwire.test.TestSuperAdmin -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

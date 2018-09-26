@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="39" failures="0" name="com.til.ctnBrandwire.test.TestSuperAdmin" time="306.975" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="CTN_BW_ProdSanity-Admin"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\akshay.kumar\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="b35cb26673b50da4"/>
+    <property name="POM_ARTIFACTID" value="til.colombia.prodSanity"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="RegionCode" value="APJ"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="til.colombia.prodSanity"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\AKSHAY~1.KUM\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="ANT_HOME" value="C:\Program Files\apache-ant-1.10.1-bin"/>
+    <property name="user.name" value="Akshay.Kumar"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="OnlineServices" value="Online Services"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/CTN_BW_ProdSanity-Admin/145/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#145"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\akshay.kumar\AppData\Local"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="Akshay.Kumar"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="UOIPME_REG_PATH" value="C:\Program Files\Intel Corporation\USB over IP"/>
+    <property name="BUILD_ID" value="145"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.5.2-bin\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
+    <property name="SCITE_USERHOME" value="C:\Users\akshay.kumar\AppData\Local\AutoIt v3\SciTE"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="IN"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.3"/>
+    <property name="platformcode" value="6U"/>
+    <property name="PTSMINSTALLPATH_X86" value="c:\Program Files (x86)\Hewlett-Packard\HP ProtectTools Security Manager\"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/CTN_BW_ProdSanity-Admin/145/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\AKSHAY~1.KUM\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/CTN_BW_ProdSanity-Admin/display/redirect"/>
+    <property name="Platform" value="BNB"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="TIMESGROUP"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_151"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="HOMEPATH" value="\Users\akshay.kumar"/>
+    <property name="USERDNSDOMAIN" value="TIMESGROUP.COM"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="asl.log" value="Destination=file"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="TILLT04345"/>
+    <property name="POM_GROUPID" value="com"/>
+    <property name="user.home" value="C:\Users\akshay.kumar"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-CTN_BW_ProdSanity-Admin-145"/>
+    <property name="JENKINS_SERVER_COOKIE" value="b35cb26673b50da4"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\akshay.kumar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\apache-maven-3.5.2-bin/bin;C:\Program Files\Java\jdk1.8.0_151/bin;C:\Program Files\Java\jdk1.8.0_151/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\apache-ant-1.10.1-bin\bin;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\apache-maven-3.5.2-bin\bin;C:\Program Files\PuTTY\;C:\Users\akshay.kumar\AppData\Local\Programs\Python\Python36-32;C:\Program Files\Git\cmd;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\akshay.kumar\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.5.2-bin"/>
+    <property name="java.class.path" value="C:\Users\akshay.kumar\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;C:\Program Files\apache-maven-3.5.2-bin\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\apache-maven-3.5.2-bin/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files\apache-maven-3.5.2-bin C:\Users\akshay.kumar\.jenkins\war\WEB-INF\lib\remoting-2.57.jar C:\Users\akshay.kumar\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\akshay.kumar\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 52916"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_151/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\apache-ant-1.10.1-bin\bin;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\apache-maven-3.5.2-bin\bin;C:\Program Files\PuTTY\;C:\Users\akshay.kumar\AppData\Local\Programs\Python\Python36-32;C:\Program Files\Git\cmd"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_151/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 78 Stepping 3, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Program Files\apache-maven-3.5.2-bin"/>
+    <property name="java.io.tmpdir" value="C:\Users\AKSHAY~1.KUM\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\akshay.kumar\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Program Files\apache-maven-3.5.2-bin/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/CTN_BW_ProdSanity-Admin/145/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\akshay.kumar\workspace\til.colombia.prodSanity"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/CTN_BW_ProdSanity-Admin/"/>
+    <property name="LOGONSERVER" value="\\TGTILNODADC02"/>
+    <property name="USERDOMAIN" value="TIMESGROUP"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="C:\Program Files\apache-maven-3.5.2-bin"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="145"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="4e03"/>
+    <property name="UATDATA" value="C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="=C:" value="C:\Users\akshay.kumar\Desktop"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\akshay.kumar\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
+    <property name="WORKSPACE" value="C:\Users\akshay.kumar\workspace\til.colombia.prodSanity"/>
+    <property name="maven3.interceptor.common" value="C:\Users\akshay.kumar\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files\Microsoft Security Client\MpProvider\;C:\Program Files (x86)\AutoIt3\AutoItX"/>
+  </properties>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyLogin" time="8.639"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyAdminDashboard" time="10.337"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyAdminDashboardFilter" time="3.855"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyAdminCreateAccount" time="7.43"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyAccountDashboard" time="11.056"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyAccountDashboardFilter" time="3.864"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyAccountsCreateAccount" time="6.741"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyAccountsAddBrand" time="7.746"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyAccountsManageBrand" time="8.913"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyAccountsAddManager" time="8.313"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyAccountsManageManager" time="6.613"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyAccountsManagePublication" time="7.764"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyFinanceDashboard" time="10.766"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyFinanceDashboardFilter" time="3.92"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyFinanceCreateAccount" time="6.135"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyFinanceRecordSales" time="16.596"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyFinanceManageOfferings" time="8.515"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyFinanceInvoices" time="6.862"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyContentDashboard" time="9.514"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyContentDashboardFilter" time="4.227"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyCreateStory" time="12.335"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyCreateResponse" time="7.147"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyCreateUpdate" time="6.816"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyCreateComment" time="6.966"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifycontentExecDashboard" time="8.803"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyPackageDashboard" time="15.266"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyCreatePackage" time="6.3"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyManagePricing" time="5.57"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyPackageExecDashboard" time="7.156"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyLeadDashboard" time="11.694"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyLeadDashboardFilter" time="3.947"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyCreateLead" time="5.428"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyLeadCreateClientAccount" time="6.723"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifySalesDashboard" time="9.97"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyLeadRecordSales" time="7.267"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyLeadManageOfferings" time="7.293"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="verifyLeadInvoices" time="6.064"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="logOutApp" time="9.207"/>
+  <testcase classname="com.til.ctnBrandwire.test.TestSuperAdmin" name="browserClose" time="5.217"/>
+</testsuite>

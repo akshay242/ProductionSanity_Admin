@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="39" passed="39">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.til.ctnBrandwire.test.TestSuperAdmin" duration-ms="323195" started-at="2018-09-26T04:33:58Z" finished-at="2018-09-26T04:39:22Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="323195" started-at="2018-09-26T04:33:58Z" finished-at="2018-09-26T04:39:22Z">
+      <class name="com.til.ctnBrandwire.test.TestSuperAdmin">
+        <test-method status="PASS" signature="driverInitialize()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="driverInitialize" is-config="true" duration-ms="16135" started-at="2018-09-26T10:03:58Z" finished-at="2018-09-26T10:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialize -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyLogin" duration-ms="8633" started-at="2018-09-26T10:04:14Z" finished-at="2018-09-26T10:04:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="verifyAdminDashboard()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyAdminDashboard" duration-ms="10344" started-at="2018-09-26T10:04:23Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyLogin" finished-at="2018-09-26T10:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminDashboard -->
+        <test-method status="PASS" signature="verifyAdminDashboardFilter()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyAdminDashboardFilter" duration-ms="3854" started-at="2018-09-26T10:04:33Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyAdminDashboard" finished-at="2018-09-26T10:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminDashboardFilter -->
+        <test-method status="PASS" signature="verifyAdminCreateAccount()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyAdminCreateAccount" duration-ms="7431" started-at="2018-09-26T10:04:37Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyAdminDashboardFilter" finished-at="2018-09-26T10:04:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminCreateAccount -->
+        <test-method status="PASS" signature="verifyAccountDashboard()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyAccountDashboard" duration-ms="11056" started-at="2018-09-26T10:04:45Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyAdminCreateAccount" finished-at="2018-09-26T10:04:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountDashboard -->
+        <test-method status="PASS" signature="verifyAccountDashboardFilter()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyAccountDashboardFilter" duration-ms="3865" started-at="2018-09-26T10:04:56Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyAccountDashboard" finished-at="2018-09-26T10:05:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountDashboardFilter -->
+        <test-method status="PASS" signature="verifyAccountsCreateAccount()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyAccountsCreateAccount" duration-ms="6740" started-at="2018-09-26T10:05:00Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyAccountDashboardFilter" finished-at="2018-09-26T10:05:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountsCreateAccount -->
+        <test-method status="PASS" signature="verifyAccountsAddBrand()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyAccountsAddBrand" duration-ms="7746" started-at="2018-09-26T10:05:06Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyAccountsCreateAccount" finished-at="2018-09-26T10:05:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountsAddBrand -->
+        <test-method status="PASS" signature="verifyAccountsManageBrand()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyAccountsManageBrand" duration-ms="8913" started-at="2018-09-26T10:05:14Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyAccountsAddBrand" finished-at="2018-09-26T10:05:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountsManageBrand -->
+        <test-method status="PASS" signature="verifyAccountsAddManager()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyAccountsAddManager" duration-ms="8314" started-at="2018-09-26T10:05:23Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyAccountsManageBrand" finished-at="2018-09-26T10:05:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountsAddManager -->
+        <test-method status="PASS" signature="verifyAccountsManageManager()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyAccountsManageManager" duration-ms="6612" started-at="2018-09-26T10:05:31Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyAccountsAddManager" finished-at="2018-09-26T10:05:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountsManageManager -->
+        <test-method status="PASS" signature="verifyAccountsManagePublication()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyAccountsManagePublication" duration-ms="7764" started-at="2018-09-26T10:05:38Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyAccountsManageManager" finished-at="2018-09-26T10:05:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountsManagePublication -->
+        <test-method status="PASS" signature="verifyFinanceDashboard()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyFinanceDashboard" duration-ms="10766" started-at="2018-09-26T10:05:46Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyAccountsManagePublication" finished-at="2018-09-26T10:05:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFinanceDashboard -->
+        <test-method status="PASS" signature="verifyFinanceDashboardFilter()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyFinanceDashboardFilter" duration-ms="3921" started-at="2018-09-26T10:05:57Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyFinanceDashboard" finished-at="2018-09-26T10:06:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFinanceDashboardFilter -->
+        <test-method status="PASS" signature="verifyFinanceCreateAccount()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyFinanceCreateAccount" duration-ms="6135" started-at="2018-09-26T10:06:00Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyFinanceDashboardFilter" finished-at="2018-09-26T10:06:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFinanceCreateAccount -->
+        <test-method status="PASS" signature="verifyFinanceRecordSales()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyFinanceRecordSales" duration-ms="16595" started-at="2018-09-26T10:06:07Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyFinanceCreateAccount" finished-at="2018-09-26T10:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFinanceRecordSales -->
+        <test-method status="PASS" signature="verifyFinanceManageOfferings()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyFinanceManageOfferings" duration-ms="8514" started-at="2018-09-26T10:06:23Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyFinanceRecordSales" finished-at="2018-09-26T10:06:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFinanceManageOfferings -->
+        <test-method status="PASS" signature="verifyFinanceInvoices()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyFinanceInvoices" duration-ms="6862" started-at="2018-09-26T10:06:32Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyFinanceManageOfferings" finished-at="2018-09-26T10:06:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFinanceInvoices -->
+        <test-method status="PASS" signature="verifyContentDashboard()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyContentDashboard" duration-ms="9505" started-at="2018-09-26T10:06:39Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyFinanceInvoices" finished-at="2018-09-26T10:06:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContentDashboard -->
+        <test-method status="PASS" signature="verifyContentDashboardFilter()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyContentDashboardFilter" duration-ms="4235" started-at="2018-09-26T10:06:48Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyContentDashboard" finished-at="2018-09-26T10:06:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContentDashboardFilter -->
+        <test-method status="PASS" signature="verifyCreateStory()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyCreateStory" duration-ms="12335" started-at="2018-09-26T10:06:52Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyContentDashboardFilter" finished-at="2018-09-26T10:07:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateStory -->
+        <test-method status="PASS" signature="verifyCreateResponse()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyCreateResponse" duration-ms="7147" started-at="2018-09-26T10:07:05Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyCreateStory" finished-at="2018-09-26T10:07:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateResponse -->
+        <test-method status="PASS" signature="verifyCreateUpdate()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyCreateUpdate" duration-ms="6816" started-at="2018-09-26T10:07:12Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyCreateResponse" finished-at="2018-09-26T10:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateUpdate -->
+        <test-method status="PASS" signature="verifyCreateComment()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyCreateComment" duration-ms="6966" started-at="2018-09-26T10:07:19Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyCreateUpdate" finished-at="2018-09-26T10:07:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateComment -->
+        <test-method status="PASS" signature="verifycontentExecDashboard()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifycontentExecDashboard" duration-ms="8804" started-at="2018-09-26T10:07:26Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyCreateComment" finished-at="2018-09-26T10:07:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycontentExecDashboard -->
+        <test-method status="PASS" signature="verifyPackageDashboard()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyPackageDashboard" duration-ms="15266" started-at="2018-09-26T10:07:34Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifycontentExecDashboard" finished-at="2018-09-26T10:07:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPackageDashboard -->
+        <test-method status="PASS" signature="verifyCreatePackage()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyCreatePackage" duration-ms="6300" started-at="2018-09-26T10:07:50Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyPackageDashboard" finished-at="2018-09-26T10:07:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreatePackage -->
+        <test-method status="PASS" signature="verifyManagePricing()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyManagePricing" duration-ms="5570" started-at="2018-09-26T10:07:56Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyCreatePackage" finished-at="2018-09-26T10:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManagePricing -->
+        <test-method status="PASS" signature="verifyPackageExecDashboard()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyPackageExecDashboard" duration-ms="7170" started-at="2018-09-26T10:08:02Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyManagePricing" finished-at="2018-09-26T10:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPackageExecDashboard -->
+        <test-method status="PASS" signature="verifyLeadDashboard()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyLeadDashboard" duration-ms="11695" started-at="2018-09-26T10:08:09Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyPackageExecDashboard" finished-at="2018-09-26T10:08:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeadDashboard -->
+        <test-method status="PASS" signature="verifyLeadDashboardFilter()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyLeadDashboardFilter" duration-ms="3946" started-at="2018-09-26T10:08:20Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyLeadDashboard" finished-at="2018-09-26T10:08:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeadDashboardFilter -->
+        <test-method status="PASS" signature="verifyCreateLead()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyCreateLead" duration-ms="5428" started-at="2018-09-26T10:08:24Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyLeadDashboardFilter" finished-at="2018-09-26T10:08:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateLead -->
+        <test-method status="PASS" signature="verifyLeadCreateClientAccount()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyLeadCreateClientAccount" duration-ms="6723" started-at="2018-09-26T10:08:30Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyCreateLead" finished-at="2018-09-26T10:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeadCreateClientAccount -->
+        <test-method status="PASS" signature="verifySalesDashboard()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifySalesDashboard" duration-ms="9971" started-at="2018-09-26T10:08:36Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyLeadCreateClientAccount" finished-at="2018-09-26T10:08:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySalesDashboard -->
+        <test-method status="PASS" signature="verifyLeadRecordSales()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyLeadRecordSales" duration-ms="7266" started-at="2018-09-26T10:08:46Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifySalesDashboard" finished-at="2018-09-26T10:08:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeadRecordSales -->
+        <test-method status="PASS" signature="verifyLeadManageOfferings()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyLeadManageOfferings" duration-ms="7293" started-at="2018-09-26T10:08:54Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyLeadRecordSales" finished-at="2018-09-26T10:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeadManageOfferings -->
+        <test-method status="PASS" signature="verifyLeadInvoices()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="verifyLeadInvoices" duration-ms="6065" started-at="2018-09-26T10:09:01Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyLeadManageOfferings" finished-at="2018-09-26T10:09:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeadInvoices -->
+        <test-method status="PASS" signature="logOutApp()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="logOutApp" duration-ms="9206" started-at="2018-09-26T10:09:07Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.verifyLeadInvoices" finished-at="2018-09-26T10:09:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApp -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.til.ctnBrandwire.test.TestSuperAdmin@5f375618]" name="browserClose" duration-ms="5218" started-at="2018-09-26T10:09:16Z" depends-on-methods="com.til.ctnBrandwire.test.TestSuperAdmin.logOutApp" finished-at="2018-09-26T10:09:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.til.ctnBrandwire.test.TestSuperAdmin -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.til.ctnBrandwire.test.TestSuperAdmin -->
+</testng-results>

@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin">
+              <span class="suite-name border-passed">com.til.ctnBrandwire.test.TestSuperAdmin</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-com.til.ctnBrandwire.test.TestSuperAdmin">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-com.til.ctnBrandwire.test.TestSuperAdmin">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-com.til.ctnBrandwire.test.TestSuperAdmin">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-com.til.ctnBrandwire.test.TestSuperAdmin">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-com.til.ctnBrandwire.test.TestSuperAdmin">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-com.til.ctnBrandwire.test.TestSuperAdmin">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-com.til.ctnBrandwire.test.TestSuperAdmin">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">39 methods,   39 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" class="hide-methods passed suite-com.til.ctnBrandwire.test.TestSuperAdmin"> (hide)</a> <!-- hide-methods passed suite-com.til.ctnBrandwire.test.TestSuperAdmin -->
+                      <a href="#" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" class="show-methods passed suite-com.til.ctnBrandwire.test.TestSuperAdmin"> (show)</a> <!-- show-methods passed suite-com.til.ctnBrandwire.test.TestSuperAdmin -->
+                    </span>
+                    <div class="method-list-content passed suite-com.til.ctnBrandwire.test.TestSuperAdmin">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="browserClose">browserClose</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="logOutApp">logOutApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyAccountDashboard">verifyAccountDashboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyAccountDashboardFilter">verifyAccountDashboardFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyAccountsAddBrand">verifyAccountsAddBrand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyAccountsAddManager">verifyAccountsAddManager</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyAccountsCreateAccount">verifyAccountsCreateAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyAccountsManageBrand">verifyAccountsManageBrand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyAccountsManageManager">verifyAccountsManageManager</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyAccountsManagePublication">verifyAccountsManagePublication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyAdminCreateAccount">verifyAdminCreateAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyAdminDashboard">verifyAdminDashboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyAdminDashboardFilter">verifyAdminDashboardFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyContentDashboard">verifyContentDashboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyContentDashboardFilter">verifyContentDashboardFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyCreateComment">verifyCreateComment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyCreateLead">verifyCreateLead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyCreatePackage">verifyCreatePackage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyCreateResponse">verifyCreateResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyCreateStory">verifyCreateStory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyCreateUpdate">verifyCreateUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyFinanceCreateAccount">verifyFinanceCreateAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyFinanceDashboard">verifyFinanceDashboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyFinanceDashboardFilter">verifyFinanceDashboardFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyFinanceInvoices">verifyFinanceInvoices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyFinanceManageOfferings">verifyFinanceManageOfferings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyFinanceRecordSales">verifyFinanceRecordSales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyLeadCreateClientAccount">verifyLeadCreateClientAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyLeadDashboard">verifyLeadDashboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyLeadDashboardFilter">verifyLeadDashboardFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyLeadInvoices">verifyLeadInvoices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyLeadManageOfferings">verifyLeadManageOfferings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyLeadRecordSales">verifyLeadRecordSales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyLogin">verifyLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyManagePricing">verifyManagePricing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyPackageDashboard">verifyPackageDashboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifyPackageExecDashboard">verifyPackageExecDashboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifySalesDashboard">verifySalesDashboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" title="com.til.ctnBrandwire.test.TestSuperAdmin" hash-for-method="verifycontentExecDashboard">verifycontentExecDashboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-com.til.ctnBrandwire.test.TestSuperAdmin -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-com.til.ctnBrandwire.test.TestSuperAdmin" class="panel com.til.ctnBrandwire.test.TestSuperAdmin">
+          <div class="suite-com.til.ctnBrandwire.test.TestSuperAdmin-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.til.ctnBrandwire.test.TestSuperAdmin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="browserClose">
+                  </a> <!-- browserClose -->
+                  <span class="method-name">browserClose</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logOutApp">
+                  </a> <!-- logOutApp -->
+                  <span class="method-name">logOutApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccountDashboard">
+                  </a> <!-- verifyAccountDashboard -->
+                  <span class="method-name">verifyAccountDashboard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccountDashboardFilter">
+                  </a> <!-- verifyAccountDashboardFilter -->
+                  <span class="method-name">verifyAccountDashboardFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccountsAddBrand">
+                  </a> <!-- verifyAccountsAddBrand -->
+                  <span class="method-name">verifyAccountsAddBrand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccountsAddManager">
+                  </a> <!-- verifyAccountsAddManager -->
+                  <span class="method-name">verifyAccountsAddManager</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccountsCreateAccount">
+                  </a> <!-- verifyAccountsCreateAccount -->
+                  <span class="method-name">verifyAccountsCreateAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccountsManageBrand">
+                  </a> <!-- verifyAccountsManageBrand -->
+                  <span class="method-name">verifyAccountsManageBrand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccountsManageManager">
+                  </a> <!-- verifyAccountsManageManager -->
+                  <span class="method-name">verifyAccountsManageManager</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccountsManagePublication">
+                  </a> <!-- verifyAccountsManagePublication -->
+                  <span class="method-name">verifyAccountsManagePublication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAdminCreateAccount">
+                  </a> <!-- verifyAdminCreateAccount -->
+                  <span class="method-name">verifyAdminCreateAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAdminDashboard">
+                  </a> <!-- verifyAdminDashboard -->
+                  <span class="method-name">verifyAdminDashboard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAdminDashboardFilter">
+                  </a> <!-- verifyAdminDashboardFilter -->
+                  <span class="method-name">verifyAdminDashboardFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyContentDashboard">
+                  </a> <!-- verifyContentDashboard -->
+                  <span class="method-name">verifyContentDashboard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyContentDashboardFilter">
+                  </a> <!-- verifyContentDashboardFilter -->
+                  <span class="method-name">verifyContentDashboardFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreateComment">
+                  </a> <!-- verifyCreateComment -->
+                  <span class="method-name">verifyCreateComment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreateLead">
+                  </a> <!-- verifyCreateLead -->
+                  <span class="method-name">verifyCreateLead</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreatePackage">
+                  </a> <!-- verifyCreatePackage -->
+                  <span class="method-name">verifyCreatePackage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreateResponse">
+                  </a> <!-- verifyCreateResponse -->
+                  <span class="method-name">verifyCreateResponse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreateStory">
+                  </a> <!-- verifyCreateStory -->
+                  <span class="method-name">verifyCreateStory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreateUpdate">
+                  </a> <!-- verifyCreateUpdate -->
+                  <span class="method-name">verifyCreateUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFinanceCreateAccount">
+                  </a> <!-- verifyFinanceCreateAccount -->
+                  <span class="method-name">verifyFinanceCreateAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFinanceDashboard">
+                  </a> <!-- verifyFinanceDashboard -->
+                  <span class="method-name">verifyFinanceDashboard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFinanceDashboardFilter">
+                  </a> <!-- verifyFinanceDashboardFilter -->
+                  <span class="method-name">verifyFinanceDashboardFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFinanceInvoices">
+                  </a> <!-- verifyFinanceInvoices -->
+                  <span class="method-name">verifyFinanceInvoices</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFinanceManageOfferings">
+                  </a> <!-- verifyFinanceManageOfferings -->
+                  <span class="method-name">verifyFinanceManageOfferings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFinanceRecordSales">
+                  </a> <!-- verifyFinanceRecordSales -->
+                  <span class="method-name">verifyFinanceRecordSales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeadCreateClientAccount">
+                  </a> <!-- verifyLeadCreateClientAccount -->
+                  <span class="method-name">verifyLeadCreateClientAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeadDashboard">
+                  </a> <!-- verifyLeadDashboard -->
+                  <span class="method-name">verifyLeadDashboard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeadDashboardFilter">
+                  </a> <!-- verifyLeadDashboardFilter -->
+                  <span class="method-name">verifyLeadDashboardFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeadInvoices">
+                  </a> <!-- verifyLeadInvoices -->
+                  <span class="method-name">verifyLeadInvoices</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeadManageOfferings">
+                  </a> <!-- verifyLeadManageOfferings -->
+                  <span class="method-name">verifyLeadManageOfferings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeadRecordSales">
+                  </a> <!-- verifyLeadRecordSales -->
+                  <span class="method-name">verifyLeadRecordSales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin">
+                  </a> <!-- verifyLogin -->
+                  <span class="method-name">verifyLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyManagePricing">
+                  </a> <!-- verifyManagePricing -->
+                  <span class="method-name">verifyManagePricing</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPackageDashboard">
+                  </a> <!-- verifyPackageDashboard -->
+                  <span class="method-name">verifyPackageDashboard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPackageExecDashboard">
+                  </a> <!-- verifyPackageExecDashboard -->
+                  <span class="method-name">verifyPackageExecDashboard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySalesDashboard">
+                  </a> <!-- verifySalesDashboard -->
+                  <span class="method-name">verifySalesDashboard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifycontentExecDashboard">
+                  </a> <!-- verifycontentExecDashboard -->
+                  <span class="method-name">verifycontentExecDashboard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-com.til.ctnBrandwire.test.TestSuperAdmin-class-passed -->
+        </div> <!-- panel com.til.ctnBrandwire.test.TestSuperAdmin -->
+        <div panel-name="test-xml-com.til.ctnBrandwire.test.TestSuperAdmin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;com.til.ctnBrandwire.test.TestSuperAdmin&quot;&gt;
+  &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.til.ctnBrandwire.test.TestSuperAdmin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- com.til.ctnBrandwire.test.TestSuperAdmin --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-com.til.ctnBrandwire.test.TestSuperAdmin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for com.til.ctnBrandwire.test.TestSuperAdmin</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-com.til.ctnBrandwire.test.TestSuperAdmin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for com.til.ctnBrandwire.test.TestSuperAdmin</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-com.til.ctnBrandwire.test.TestSuperAdmin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for com.til.ctnBrandwire.test.TestSuperAdmin</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_com.til.ctnBrandwire.test.TestSuperAdmin');
+function tableData_com.til.ctnBrandwire.test.TestSuperAdmin() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(39);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyFinanceRecordSales')
+data.setCell(0, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(0, 3, 16595);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyPackageDashboard')
+data.setCell(1, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(1, 3, 15266);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyCreateStory')
+data.setCell(2, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(2, 3, 12335);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyLeadDashboard')
+data.setCell(3, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(3, 3, 11695);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyAccountDashboard')
+data.setCell(4, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(4, 3, 11056);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyFinanceDashboard')
+data.setCell(5, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(5, 3, 10766);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyAdminDashboard')
+data.setCell(6, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(6, 3, 10344);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifySalesDashboard')
+data.setCell(7, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(7, 3, 9971);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyContentDashboard')
+data.setCell(8, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(8, 3, 9505);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'logOutApp')
+data.setCell(9, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(9, 3, 9206);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyAccountsManageBrand')
+data.setCell(10, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(10, 3, 8913);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifycontentExecDashboard')
+data.setCell(11, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(11, 3, 8804);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyLogin')
+data.setCell(12, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(12, 3, 8633);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyFinanceManageOfferings')
+data.setCell(13, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(13, 3, 8514);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyAccountsAddManager')
+data.setCell(14, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(14, 3, 8314);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyAccountsManagePublication')
+data.setCell(15, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(15, 3, 7764);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyAccountsAddBrand')
+data.setCell(16, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(16, 3, 7746);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyAdminCreateAccount')
+data.setCell(17, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(17, 3, 7431);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyLeadManageOfferings')
+data.setCell(18, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(18, 3, 7293);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyLeadRecordSales')
+data.setCell(19, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(19, 3, 7266);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyPackageExecDashboard')
+data.setCell(20, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(20, 3, 7170);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyCreateResponse')
+data.setCell(21, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(21, 3, 7147);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyCreateComment')
+data.setCell(22, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(22, 3, 6966);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyFinanceInvoices')
+data.setCell(23, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(23, 3, 6862);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyCreateUpdate')
+data.setCell(24, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(24, 3, 6816);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyAccountsCreateAccount')
+data.setCell(25, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(25, 3, 6740);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifyLeadCreateClientAccount')
+data.setCell(26, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(26, 3, 6723);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifyAccountsManageManager')
+data.setCell(27, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(27, 3, 6612);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyCreatePackage')
+data.setCell(28, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(28, 3, 6300);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifyFinanceCreateAccount')
+data.setCell(29, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(29, 3, 6135);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verifyLeadInvoices')
+data.setCell(30, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(30, 3, 6065);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'verifyManagePricing')
+data.setCell(31, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(31, 3, 5570);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'verifyCreateLead')
+data.setCell(32, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(32, 3, 5428);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'browserClose')
+data.setCell(33, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(33, 3, 5218);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'verifyContentDashboardFilter')
+data.setCell(34, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(34, 3, 4235);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'verifyLeadDashboardFilter')
+data.setCell(35, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(35, 3, 3946);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'verifyFinanceDashboardFilter')
+data.setCell(36, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(36, 3, 3921);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'verifyAccountDashboardFilter')
+data.setCell(37, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(37, 3, 3865);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'verifyAdminDashboardFilter')
+data.setCell(38, 2, 'com.til.ctnBrandwire.test.TestSuperAdmin')
+data.setCell(38, 3, 3854);
+window.suiteTableData['com.til.ctnBrandwire.test.TestSuperAdmin']= { tableData: data, tableDiv: 'times-div-com.til.ctnBrandwire.test.TestSuperAdmin'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-com.til.ctnBrandwire.test.TestSuperAdmin">
+              </div> <!-- times-div-com.til.ctnBrandwire.test.TestSuperAdmin -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-com.til.ctnBrandwire.test.TestSuperAdmin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for com.til.ctnBrandwire.test.TestSuperAdmin</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-com.til.ctnBrandwire.test.TestSuperAdmin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-com.til.ctnBrandwire.test.TestSuperAdmin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.til.ctnBrandwire.test.TestSuperAdmin</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">driverInitialize</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin</span>
+                <span class="method-start">16146 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAdminDashboard</span>
+                <span class="method-start">24785 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAdminDashboardFilter</span>
+                <span class="method-start">35129 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAdminCreateAccount</span>
+                <span class="method-start">38984 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAccountDashboard</span>
+                <span class="method-start">46415 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAccountDashboardFilter</span>
+                <span class="method-start">57472 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAccountsCreateAccount</span>
+                <span class="method-start">61338 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAccountsAddBrand</span>
+                <span class="method-start">68079 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAccountsManageBrand</span>
+                <span class="method-start">75826 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAccountsAddManager</span>
+                <span class="method-start">84740 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAccountsManageManager</span>
+                <span class="method-start">93054 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAccountsManagePublication</span>
+                <span class="method-start">99667 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFinanceDashboard</span>
+                <span class="method-start">107432 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFinanceDashboardFilter</span>
+                <span class="method-start">118200 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFinanceCreateAccount</span>
+                <span class="method-start">122122 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFinanceRecordSales</span>
+                <span class="method-start">128257 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFinanceManageOfferings</span>
+                <span class="method-start">144853 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFinanceInvoices</span>
+                <span class="method-start">153368 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyContentDashboard</span>
+                <span class="method-start">160231 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyContentDashboardFilter</span>
+                <span class="method-start">169737 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCreateStory</span>
+                <span class="method-start">173973 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCreateResponse</span>
+                <span class="method-start">186308 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCreateUpdate</span>
+                <span class="method-start">193456 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCreateComment</span>
+                <span class="method-start">200272 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifycontentExecDashboard</span>
+                <span class="method-start">207239 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyPackageDashboard</span>
+                <span class="method-start">216044 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCreatePackage</span>
+                <span class="method-start">231310 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyManagePricing</span>
+                <span class="method-start">237610 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyPackageExecDashboard</span>
+                <span class="method-start">243180 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLeadDashboard</span>
+                <span class="method-start">250351 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLeadDashboardFilter</span>
+                <span class="method-start">262046 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCreateLead</span>
+                <span class="method-start">265993 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLeadCreateClientAccount</span>
+                <span class="method-start">271421 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySalesDashboard</span>
+                <span class="method-start">278145 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLeadRecordSales</span>
+                <span class="method-start">288117 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLeadManageOfferings</span>
+                <span class="method-start">295384 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLeadInvoices</span>
+                <span class="method-start">302678 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logOutApp</span>
+                <span class="method-start">308744 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">317951 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
