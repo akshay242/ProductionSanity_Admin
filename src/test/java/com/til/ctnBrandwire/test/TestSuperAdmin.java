@@ -32,6 +32,7 @@ public class TestSuperAdmin {
 	ExtentHtmlReporter htmlReporter;
 	public static ExtentTest test;
 	//random comment for git testing
+	// testing a new branch for git
 
 	@BeforeClass
 	public void driverInitialize() throws TimeoutException {
